@@ -1,0 +1,49 @@
+/* 2. Body width */
+body {
+    max-width: 80ch;
+    margin: 0 auto; /* Centers the body horizontally */
+}
+
+/* 3. Colors */
+body {
+    background-color: #f0f0f0; /* Background color */
+    color: #333; /* Foreground color */
+}
+
+a {
+    color: #007bff; /* Link color */
+}
+
+/* 4. Header text size */
+h1, h2, h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 3em; /* Three times larger */
+}
+
+/* 5. Header background */
+header {
+    background-color: rgba(240, 240, 240, 0.5); /* Faded foreground color */
+}
+
+/* 6. Navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Equal space between menu options */
+}
+
+nav ul li:hover {
+    background-color: #d9d9d9; /* Highlighted state */
+}
+
+nav ul + p {
+    margin-bottom: 10px; /* Extra space after the unordered list */
+}
